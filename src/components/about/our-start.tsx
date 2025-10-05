@@ -18,7 +18,7 @@ const OurStart = () => {
                     </Container>
                     <Container delay={0.1} className="flex grow">
                         <h2 className="text-3xl md:text-4xl font-semibold text-left md:text-center mt-4">
-                            How Verve got Started
+                            How Preflyte got Started
                         </h2>
                     </Container>
                     <Container delay={0.3} className="max-w-2xl mx-auto">

@@ -15,13 +15,13 @@ const CTA = () => {
                     <div className="flex flex-col items-start justify-center w-full">
                         <Container className="w-max mx-auto">
                             <h2 className="text-3xl lg:text-5xl leading-tight text-transparent bg-clip-text bg-gradient-to-b from-neutral-100 to-neutral-400 font-semibold">
-                                Start Your <br /> 7-day free trial
+                                Start Your <br /> Early Access
                             </h2>
                             <div className="flex items-center gap-4 mt-6">
                                 <div className="flex items-center gap-2">
                                     <CheckCircle2 className="size-4 text-primary" />
                                     <span className="text-sm font-medium">
-                                        Free 7-day trial
+                                        Contact us for early access
                                     </span>
                                 </div>
                                 <div className="flex items-center gap-2">
@@ -48,11 +48,11 @@ const CTA = () => {
                                 <Button size="lg">
                                     Get Started
                                 </Button>
-                                <div className="flex flex-col">
+                                {/* <div className="flex flex-col">
                                     <span className="text-sm text-muted-foreground">
                                         4.80/5 <br /> From 300+ Customer Reviews
                                     </span>
-                                </div>
+                                </div> */}
                             </div>
                         </Container>
                     </div>

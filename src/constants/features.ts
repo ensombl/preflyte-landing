@@ -1,32 +1,32 @@
 export const FEATURES = [
     {
-        title: "Responsive Break Points",
-        desc: "Adapt your layout seamlessly across all devices with flexible breakpoints.",
+        title: "Code-Review Style interviews",
+        desc: "Automatically tailored to your tech stack, project type, and experience level.",
         icon: "/icons/pie.svg",
     },
     {
-        title: "Easy to Customize",
-        desc: "Effortlessly tailor components to match your brand and workflow.",
+        title: "ATS & API Integrations*",
+        desc: "Connect seamlessly to your hiring stack, no friction, no manual exports.",
         icon: "/icons/computer.svg",
     },
     {
-        title: "Framer CMS",
-        desc: "Manage your content dynamically with powerful CMS integration.",
-        icon: "/icons/label.svg",
+        title: "Human-in-the-Loop Scoring",
+        desc: "Combine data-driven insights with your own evaluation for balanced hiring calls.",
+        icon: "/icons/clock.svg",
     },
     {
-        title: "Structured Layers",
-        desc: "Organize your project with clear, maintainable layer structures.",
+        title: "Test Candidates on Patterns",
+        desc: "Watch how candidates think, debug, and optimize in real time.",
         icon: "/icons/crown.svg",
     },
     {
-        title: "Text Effects",
-        desc: "Enhance your typography with stunning and customizable text effects.",
+        title: "Real-World Scenarios",
+        desc: "Every interview feels like a sprint task, not a whiteboard puzzle.",
         icon: "/icons/cursor.svg",
     },
     {
-        title: "Time Animations",
-        desc: "Bring your UI to life with smooth and engaging time-based animations.",
-        icon: "/icons/clock.svg",
+        title: "Custom Branding & Reports",
+        desc: "Make every candidate interaction feel like your company, not a third-party test.",
+        icon: "/icons/label.svg",
     },
 ];

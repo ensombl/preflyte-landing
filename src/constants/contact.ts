@@ -7,13 +7,13 @@ export const CONTACT_CARDS = [
         icon: PhoneIcon
     },
     {
-        title: "Verve Address",
-        value: "Mumbai, India",
+        title: "Preflyte Addr.",
+        value: "Singapore",
         icon: MapPinIcon
     },
     {
         title: "Email Address",
-        value: "support@verve.com",
+        value: "team@preflyte.io",
         icon: MailIcon
     }
 ] as const;

@@ -5,6 +5,7 @@ import Faq from "@/components/marketing/faq";
 import Features from "@/components/marketing/features";
 import Hero from "@/components/marketing/hero";
 import HowItWorks from "@/components/marketing/how-it-works";
+import Methodology from "@/components/marketing/methodology";
 import Stats from "@/components/marketing/stats";
 import Testimonials from "@/components/marketing/testimonials";
 
@@ -12,13 +13,14 @@ const HomePage = () => {
     return (
         <div className="w-full relative flex flex-col pt-16">
             <Hero />
+            <Methodology />
             <Companies />
             <HowItWorks />
             <Features />
-            <Faq />
+            {/* <Faq /> */}
             <Stats />
-            <Testimonials />
-            <Blogs />
+            {/* <Testimonials /> */}
+            {/* <Blogs /> */}
             <CTA />
         </div>
     );

@@ -11,10 +11,10 @@ const Features = () => {
                 <Container>
                     <div className="flex flex-col items-start justify-start lg:items-center lg:justify-center">
                         <h2 className="text-3xl lg:text-4xl font-semibold text-left lg:text-center tracking-tight">
-                            Build a solution that wins you <br /> more customers
+                        Smarter hiring for teams that build <br />real software
                         </h2>
                         <p className="text-base lg:text-lg font-normal text-muted-foreground text-left lg:text-center max-w-md mt-2">
-                            Experience the power of Verve with our easy-to-use notebook solution. Get started in minutes
+                        Preflyte doesn’t just quiz candidates, it simulates the work they’ll actually do.
                         </p>
                     </div>
                 </Container>
@@ -31,6 +31,11 @@ const Features = () => {
                         ))}
                     </div>
                 </Container>
+                <p className="text-sm text-muted-foreground text-center mt-4">
+                <small>
+                    * coming soon
+                </small>
+                </p>
             </Wrapper>
         </div>
     )

@@ -11,10 +11,10 @@ export const BLOGS = [
         authorImage: "/images/person-one.jpg",
     },
     {
-        title: "Build pages with Verve",
-        desc: "Quickly create and launch pages using Verve’s intuitive builder and templates.",
+        title: "Build pages with Preflyte",
+        desc: "Quickly create and launch pages using Preflyte’s intuitive builder and templates.",
         image: "/images/blog2.svg",
-        category: "Verve Product",
+        category: "Preflyte Product",
         author: "John Doe",
         authorRole: "Product Manager",
         authorCompany: "Google",

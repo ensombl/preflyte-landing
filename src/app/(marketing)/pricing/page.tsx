@@ -8,8 +8,8 @@ const PricingPage = () => {
     return (
         <div className="w-full relative flex flex-col pt-16">
             <PricingHero />
-            <PricingQuestions />
-            <Faq />
+            {/* <PricingQuestions /> */}
+            {/* <Faq /> */}
             <CTA />
         </div>
     )

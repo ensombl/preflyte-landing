@@ -10,6 +10,7 @@ import Container from "../global/container";
 import Icons from "../global/icons";
 import Wrapper from "../global/wrapper";
 import MobileMenu from "./mobile-menu";
+import Image from "next/image";
 
 const Navbar = () => {
 
@@ -44,7 +45,8 @@ const Navbar = () => {
                     transition={{ duration: 0.2 }}
                 >
                     <Link href="/" className="flex items-center gap-2">
-                        <Icons.logo className="w-max h-6" />
+                        {/* <Icons.logo className="w-max h-6" /> */}
+                        <Image src="/images/logo-preflyte.png" alt="Preflyte" width={128} height={64} className="w-max h-6" />
                     </Link>
                 </motion.div>
 

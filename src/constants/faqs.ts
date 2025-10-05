@@ -5,7 +5,7 @@ export const FAQS = [
     },
     {
         question: "How can I contact support for assistance?",
-        answer: "You can contact our support team via email at support@example.com",
+        answer: "You can contact our support team via email at team@preflyte.io",
     },
     {
         question: "What are the highlights of your product?",

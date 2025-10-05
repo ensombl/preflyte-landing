@@ -15,18 +15,13 @@ const Footer = () => {
                 <div className="grid gap-8 xl:grid-cols-2 xl:gap-8">
                     <Container animation="fadeRight" delay={0.4}>
                         <div className="flex flex-col items-start justify-start md:max-w-[300px]">
-                            <div className="flex items-center gap-2">
                                 <Image
-                                    src="/icons/icon.svg"
-                                    alt="Verve"
-                                    width={32}
-                                    height={32}
-                                    className="size-6"
+                                    src="/images/logo-preflyte.png"
+                                    alt="Preflyte"
+                                    width={128}
+                                    height={64}
+                                    className="w-max h-6"
                                 />
-                                <span className="text-lg lg:text-xl font-medium">
-                                    Verve
-                                </span>
-                            </div>
                             <p className="text-muted-foreground mt-4 text-sm">
                                 Effortlessly launch robust, <br />production-ready projects
                             </p>
@@ -96,7 +91,7 @@ const Footer = () => {
                 <Container animation="fadeUp" delay={1}>
                     <div className="mt-16 border-t border-border/80 pt-8 flex flex-col md:flex-row items-center justify-center">
                         <p className="text-sm text-muted-foreground">
-                            © {new Date().getFullYear()} Verve. All rights reserved.
+                            © {new Date().getFullYear()} Preflyte. All rights reserved.
                         </p>
                     </div>
                 </Container>

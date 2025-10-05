@@ -33,13 +33,13 @@ export const INTEGRATIONS: Integration[] = [
     },
     {
         name: "Snapchat",
-        description: "Automate your workflows by connecting Verve with thousands of apps through Snapchat.",
+        description: "Automate your workflows by connecting Preflyte with thousands of apps through Snapchat.",
         icon: "/icons/snapchat.svg",
         category: "api"
     },
     {
         name: "Reddit",
-        description: "Share and engage with the Reddit community directly from your Verve dashboard.",
+        description: "Share and engage with the Reddit community directly from your Preflyte dashboard.",
         icon: "/icons/reddit.svg",
         category: "social"
     },
