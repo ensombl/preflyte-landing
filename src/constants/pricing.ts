@@ -17,38 +17,24 @@ export type Plan = {
 
 export const PRICING_PLANS: Plan[] = [
     {
-        name: "Basic Plan",
-        badge: "Basic",
+        name: "Prelyte Essential",
+        badge: "Early Access",
         description: "Perfect for getting started",
         price: {
-            monthly: 12,
-            yearly: 115,
+            monthly: 99,
+            yearly: 1188,
         },
         features: [
-            { text: "Developer docs" },
-            { text: "Submit cases to support" },
-            { text: "API status notifications" },
-            { text: "Troubleshooting" },
+            { text: "$2 per additional interview" },
+            { text: "10 active job profiles" },
+            { text: "50 included interviews/month" },
+            { text: "AI-generated code review scenarios" },
+            { text: "Priority support" },
+            { text: "Anti Cheat Intelligence" },
         ],
-        buttonText: "Start with Basic",
-    },
-    {
-        name: "Popular Plan",
-        badge: "Popular",
-        description: "Best for growing teams",
-        price: {
-            monthly: 40,
-            yearly: 384,
-        },
-        features: [
-            { text: "Developer docs" },
-            { text: "Submit cases to support" },
-            { text: "API status notifications" },
-            { text: "Troubleshooting" },
-        ],
-        buttonText: "Start with Pro",
+        buttonText: "Contact Us",
         popular: true,
-    }
+    },
 ];
 
 export const MARQUEE_ITEMS = [

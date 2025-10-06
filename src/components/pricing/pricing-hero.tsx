@@ -11,6 +11,7 @@ import Wrapper from "../global/wrapper";
 import { Button } from "../ui/button";
 import { Marquee } from "../ui/marquee";
 import { Switch } from "../ui/switch";
+import Link from "next/link";
 
 const PricingHero = () => {
 
@@ -44,7 +45,7 @@ const PricingHero = () => {
                         </p>
                     </Container>
 
-                    <Container delay={0.3}>
+                    {/* <Container delay={0.3}>
                         <div className="flex items-center gap-4 mt-8">
                             <span className="text-sm font-medium">
                                 Monthly
@@ -63,10 +64,11 @@ const PricingHero = () => {
                                 </span>
                             </div>
                         </div>
-                    </Container>
+                    </Container> */}
 
                     <Container delay={0.4} className="w-full">
-                        <div className="grid grid-cols-1 lg:grid-cols-2 gap-6 w-full mt-16">
+                        {/* <div className="grid grid-cols-1 lg:grid-cols-2 gap-6 w-full mt-16"> */}
+                        <div className="flex flex-col gap-6 w-full mt-16">
                             {PRICING_PLANS.map((plan, index) => (
                                 <div
                                     key={index}
@@ -83,7 +85,15 @@ const PricingHero = () => {
                                                 </span>
                                             </div>
                                             <h3 className="text-2xl lg:text-4xl font-semibold mt-4">
-                                                <NumberFlow
+                                                {
+                                                    plan.badge === "Early Access" ? (
+                                                        <s>
+                                                        <span className="text-2xl lg:text-4xl font-semibold mt-4">
+                                                            $99
+                                                        </span>
+                                                        </s>
+                                                    ) : (
+                                                        <NumberFlow
                                                     value={isYearly ? plan.price.yearly : plan.price.monthly}
                                                     format={{
                                                         currency: "USD",
@@ -92,7 +102,10 @@ const PricingHero = () => {
                                                         maximumFractionDigits: 0,
                                                     }}
                                                     className="text-2xl lg:text-4xl font-semibold mt-4"
-                                                />{" "}
+                                                />
+                                                    )
+                                                }
+                                                {" "}
                                                 <span className="text-base font-normal text-muted-foreground">
                                                     /{isYearly ? "year" : "month"}
                                                 </span>
@@ -122,8 +135,11 @@ const PricingHero = () => {
                                     <Button
                                         className="mt-8 w-full"
                                         variant={plan.popular ? "default" : "outline"}
+                                        asChild
                                     >
-                                        {plan.buttonText}
+                                        <Link href="/contact" target="_blank" rel="noopener noreferrer">
+                                            {plan.buttonText}
+                                        </Link>
                                     </Button>
                                 </div>
                             ))}
