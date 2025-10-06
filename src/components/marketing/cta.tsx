@@ -4,6 +4,8 @@ import Wrapper from "../global/wrapper";
 import Container from "../global/container";
 import Image from "next/image";
 import { Button } from "../ui/button";
+import Link from "next/link";
+import { CAL_LINK } from "@/constants/contact";
 
 const CTA = () => {
     return (
@@ -45,8 +47,10 @@ const CTA = () => {
                                 />
                             </div>
                             <div className="flex items-center gap-4 mt-6">
-                                <Button size="lg">
-                                    Get Started
+                                <Button size="lg" asChild>
+                                    <Link href={CAL_LINK}target="_blank" rel="noopener noreferrer">
+                                    Schedule a Demo
+                                    </Link>
                                 </Button>
                                 {/* <div className="flex flex-col">
                                     <span className="text-sm text-muted-foreground">

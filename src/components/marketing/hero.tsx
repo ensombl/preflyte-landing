@@ -4,6 +4,8 @@ import Icons from "../global/icons";
 import Image from "next/image";
 import Container from "../global/container";
 import { Button } from "../ui/button";
+import { CAL_LINK } from '@/constants/contact';
+import Link from 'next/link';
 
 const Hero = () => {
     return (
@@ -25,7 +27,7 @@ const Hero = () => {
                         <div className="flex items-center justify-center gap-x-1 px-2 py-1.5 relative w-max mx-auto rounded-full before:absolute before:inset-0 before:-z-10 before:p-[1px] before:rounded-3xl before:bg-gradient-to-b before:from-neutral-700 before:to-neutral-900 before:content-[''] after:absolute after:inset-[1px] after:-z-10 after:rounded-[22px] after:bg-[#181818]/60">
                             <Icons.stars className="size-5" />
                             <span className="text-sm text-white">
-                                Preflyte Product Overview
+                                Preflyte is Now in Early Access
                             </span>
                         </div>
                     </Container>
@@ -44,8 +46,10 @@ const Hero = () => {
 
                     <Container delay={0.3}>
                         <div className="mt-6">
-                            <Button size="md">
-                                Get started for free
+                            <Button size="md" asChild>
+                                <Link href={CAL_LINK}target="_blank" rel="noopener noreferrer">
+                                Schedule a Demo
+                                </Link>
                             </Button>
                         </div>
                     </Container>

@@ -12,7 +12,7 @@ const Footer = () => {
                     <div className="absolute top-0 w-4/5 mx-auto inset-x-0 h-px bg-gradient-to-r from-[#050505] via-primary/40 to-[#050505]"></div>
                 </Container>
 
-                <div className="grid gap-8 xl:grid-cols-2 xl:gap-8">
+                {/* <div className="grid gap-8 xl:grid-cols-2 xl:gap-8">
                     <Container animation="fadeRight" delay={0.4}>
                         <div className="flex flex-col items-start justify-start md:max-w-[300px]">
                                 <Image
@@ -86,7 +86,7 @@ const Footer = () => {
                             </div>
                         </Container>
                     </div>
-                </div>
+                </div> */}
 
                 <Container animation="fadeUp" delay={1}>
                     <div className="mt-16 border-t border-border/80 pt-8 flex flex-col md:flex-row items-center justify-center">

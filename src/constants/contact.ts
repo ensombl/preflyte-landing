@@ -1,5 +1,7 @@
 import { PhoneIcon, MailIcon, MapPinIcon, CalendarIcon } from "lucide-react";
 
+export const CAL_LINK = "https://cal.com/preflyte/preflyte-demo"
+
 export const CONTACT_CARDS = [
     // {
     //     title: "Phone Number",
