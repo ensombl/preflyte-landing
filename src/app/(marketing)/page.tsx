@@ -1,4 +1,6 @@
 import Blogs from "@/components/marketing/blogs";
+import type { Metadata } from "next";
+import { generateMetadata } from "@/utils";
 import Companies from "@/components/marketing/companies";
 import CTA from "@/components/marketing/cta";
 import Faq from "@/components/marketing/faq";
@@ -27,3 +29,16 @@ const HomePage = () => {
 };
 
 export default HomePage;
+
+export const metadata: Metadata = generateMetadata({
+    title: "Hire better engineers, faster",
+    description: "Preflyte automates technical interviews and code reviews so you can hire top engineers faster and cheaper than traditional processes.",
+    path: "/",
+    keywords: [
+        "technical interviews",
+        "developer hiring",
+        "coding assessments",
+        "AI interviews",
+        "engineering hiring platform",
+    ],
+});

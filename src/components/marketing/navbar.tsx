@@ -75,6 +75,11 @@ const Navbar = () => {
                                 Contact Sales
                             </Button>
                         </Link>
+                        <Link href="https://app.preflyte.io" className="hidden lg:block" target="_blank" rel="noopener noreferrer">
+                            <Button size="sm">
+                                Go to app
+                            </Button>
+                        </Link>
                         <div className="lg:hidden">
                             <MobileMenu />
                         </div>
