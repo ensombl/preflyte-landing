@@ -18,7 +18,7 @@ export type Plan = {
 export const PRICING_PLANS: Plan[] = [
     {
         name: "Prelyte Essential",
-        badge: "Early Access",
+        badge: "Early Access Discount",
         description: "Perfect for getting started",
         price: {
             monthly: 99,
@@ -38,11 +38,9 @@ export const PRICING_PLANS: Plan[] = [
 ];
 
 export const MARQUEE_ITEMS = [
-    "Seamless Success",
-    "Efficient Excellence",
-    "Empowering Growth",
-    "Innovative Simplicity",
-    "Scalable Solutions",
-    "Reliable Performance",
-    "Global Reach"
+    "Code-Review Style interviews",
+    "Human-in-the-Loop Scoring",
+    "Test Candidates on Patterns",
+    "Real-World Scenarios",
+    "Custom Branding & Reports"
 ];
