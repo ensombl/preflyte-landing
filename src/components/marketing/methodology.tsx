@@ -1,6 +1,6 @@
 export default function Methodology() {
     return (
-        <div className="flex w-full flex-col items-center justify-center">
+        <div className="flex w-full flex-col items-center justify-center px-4">
                 <h2 className="text-3xl lg:text-4xl font-semibold text-center tracking-tight">
                     Our Methodology
                 </h2>

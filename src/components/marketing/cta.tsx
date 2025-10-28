@@ -19,7 +19,7 @@ const CTA = () => {
                             <h2 className="text-3xl lg:text-5xl leading-tight text-transparent bg-clip-text bg-gradient-to-b from-neutral-100 to-neutral-400 font-semibold">
                                 Start Your <br /> Early Access
                             </h2>
-                            <div className="flex items-center gap-4 mt-6">
+                            <div className="flex flex-col md:flex-row items-center gap-4 mt-6">
                                 <div className="flex items-center gap-2">
                                     <CheckCircle2 className="size-4 text-primary" />
                                     <span className="text-sm font-medium">
