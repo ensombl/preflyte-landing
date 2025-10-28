@@ -89,7 +89,7 @@ const Footer = () => {
                 </div> */}
 
                 <Container animation="fadeUp" delay={1}>
-                    <div className="mt-16 border-t border-border/80 pt-8 flex flex-col md:flex-row items-center justify-center">
+                    <div className="mt-16 border-t-0 border-border/80 pt-8 flex flex-col md:flex-row items-center justify-center">
                         <p className="text-sm text-muted-foreground">
                             © {new Date().getFullYear()} Preflyte. All rights reserved.
                         </p>

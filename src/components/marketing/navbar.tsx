@@ -46,7 +46,7 @@ const Navbar = () => {
                 >
                     <Link href="/" className="flex items-center gap-2">
                         {/* <Icons.logo className="w-max h-6" /> */}
-                        <Image src="/images/logo-preflyte.png" alt="Preflyte" width={128} height={64} className="w-max h-10" />
+                        <Image src="/images/logo-preflyte.png" alt="Preflyte" width={128} height={64} className="w-max h-8 lg:h-10" />
                     </Link>
                 </motion.div>
 
