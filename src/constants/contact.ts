@@ -14,7 +14,7 @@ export const CONTACT_CARDS = [
     //     icon: MapPinIcon
     // },
     {
-        title: "Email Address",
+        title: "Email Us",
         value: "team@preflyte.io",
         type: "email",
         icon: MailIcon
@@ -22,7 +22,7 @@ export const CONTACT_CARDS = [
     {
         title: "Book a Call",
         value: "https://cal.com/preflyte/preflyte-demo",
-        type: "btn",
+        type: "call",
         icon: CalendarIcon
     }
 ] as const;
