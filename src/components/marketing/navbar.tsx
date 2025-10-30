@@ -52,7 +52,7 @@ const Navbar = () => {
 
                 <div className="hidden lg:flex flex-row flex-1 absolute inset-0 items-center justify-center w-max mx-auto gap-x-3 text-sm text-muted-foreground font-medium">
                     <AnimatePresence>
-                        {NAV_LINKS.map((link, index) => (
+                        {NAV_LINKS.map((link: { name: string; link: string }, index: number) => (
                             <Container
                                 key={index}
                                 animation="fadeDown"
