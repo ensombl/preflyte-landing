@@ -15,12 +15,12 @@ const HomePage = () => {
     return (
         <div className="w-full relative flex flex-col pt-16">
             <Hero />
+            <Stats />
             <Methodology />
             <Companies />
             <HowItWorks />
             <Features />
             {/* <Faq /> */}
-            <Stats />
             {/* <Testimonials /> */}
             {/* <Blogs /> */}
             <CTA />

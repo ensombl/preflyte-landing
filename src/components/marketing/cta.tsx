@@ -19,7 +19,7 @@ const CTA = () => {
                             <h2 className="text-3xl lg:text-5xl leading-tight text-transparent bg-clip-text bg-gradient-to-b from-neutral-100 to-neutral-400 font-semibold">
                                 Start Your <br /> Early Access
                             </h2>
-                            <div className="flex flex-col md:flex-row items-center gap-4 mt-6">
+                            <div className="flex flex-col items-center md:items-start gap-4 mt-6">
                                 <div className="flex items-center gap-2">
                                     <CheckCircle2 className="size-4 text-primary" />
                                     <span className="text-sm font-medium">
@@ -37,7 +37,7 @@ const CTA = () => {
                     </div>
                     <div className="flex flex-col justify-center w-full mt-8 lg:mt-0">
                         <Container className="w-max mx-auto">
-                            <div className="flex size-20">
+                            {/* <div className="flex size-20">
                                 <Image
                                     src="/icons/heart.svg"
                                     alt="Heart"
@@ -45,7 +45,7 @@ const CTA = () => {
                                     height={1024}
                                     className="object-cover size-full"
                                 />
-                            </div>
+                            </div> */}
                             <div className="flex items-center gap-4 mt-6">
                                 <Button size="lg" asChild>
                                     <Link href={CAL_LINK}target="_blank" rel="noopener noreferrer">

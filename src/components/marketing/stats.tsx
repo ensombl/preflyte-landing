@@ -6,7 +6,7 @@ import { STATS } from "@/constants";
 const Stats = () => {
     return (
         <div>
-            <h2 className="text-3xl lg:text-4xl font-semibold text-center tracking-tight">
+            <h2 className="text-3xl lg:text-4xl font-semibold text-center tracking-tight py-16">
                 The Problem in Numbers
             </h2>
             <div className="flex flex-col items-center justify-center relative w-full py-16 lg:py-24 overflow-hidden">
@@ -41,6 +41,7 @@ const Stats = () => {
                     </div>
                 </Wrapper>
             </div>
+            <div className="flex flex-col items-center justify-center px-4 pb-16">
             <p className="text-sm text-muted-foreground text-center mt-4">
                 <sup>
                     *
@@ -57,6 +58,7 @@ const Stats = () => {
                 (U.S. Dept. of Labor estimate: ~30–50% of annual salary)
                 </small>
             </p>
+            </div>
         </div>
 )
 };
