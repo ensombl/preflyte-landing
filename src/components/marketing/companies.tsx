@@ -29,7 +29,7 @@ const Companies = () => {
                                 <Image src="/images/company7.svg" alt="Company 7" width={1024} height={1024} className="w-24 h-8" />
                             </div>
                         </Marquee> */}
-                        <div className="flex gap-8 md:gap-12 w-full justify-center items-center">
+                        <div className="flex flex-col md:flex-row gap-8 md:gap-12 w-full justify-center items-center">
                             <Image src="/images/gsoc-logo.png" alt="Google Summer of Code" width={360} height={180} />
                             <Image src="/images/lg-logo.png" alt="Liquid Galaxy" width={120} height={60} />
                         </div>

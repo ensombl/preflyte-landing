@@ -46,13 +46,13 @@ const Navbar = () => {
                 >
                     <Link href="/" className="flex items-center gap-2">
                         {/* <Icons.logo className="w-max h-6" /> */}
-                        <Image src="/images/logo-preflyte.png" alt="Preflyte" width={128} height={64} className="w-max h-6" />
+                        <Image src="/images/logo-preflyte.png" alt="Preflyte" width={128} height={64} className="w-max h-8 md:h-10" />
                     </Link>
                 </motion.div>
 
                 <div className="hidden lg:flex flex-row flex-1 absolute inset-0 items-center justify-center w-max mx-auto gap-x-3 text-sm text-muted-foreground font-medium">
                     <AnimatePresence>
-                        {NAV_LINKS.map((link, index) => (
+                        {NAV_LINKS.map((link: { name: string; link: string }, index: number) => (
                             <Container
                                 key={index}
                                 animation="fadeDown"
