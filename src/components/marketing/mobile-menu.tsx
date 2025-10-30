@@ -19,7 +19,7 @@ const MobileMenu = () => {
                     </SheetTitle> 
                 </SheetHeader>
                 <div className="flex flex-col gap-6 mt-8">
-                    {NAV_LINKS.map((link, index) => (
+                    {NAV_LINKS.map((link: { name: string; link: string }, index: number) => (
                         <SheetClose asChild key={index}>
                             <Link href={link.link} className="text-lg font-medium w-full">
                                 {link.name}
