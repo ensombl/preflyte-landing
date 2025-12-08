@@ -23,7 +23,7 @@ const ContactHero = () => {
                     </Container>
 
                     <Container delay={0.1}>
-                        <h2 className="text-balance !leading-[1.25] text-center text-4xl md:text-6xl font-semibold tracking-tight mt-6 w-full">
+                        <h2 className="text-balance leading-tight! text-center text-4xl md:text-6xl font-semibold tracking-tight mt-6 w-full">
                             Let's Start a Conversation
                         </h2>
                     </Container>
@@ -49,9 +49,9 @@ const ContactHero = () => {
                             return (
                                 <div 
                                     key={index} 
-                                    className="flex flex-col items-center justify-center p-6 rounded-2xl bg-[#0A0A0A] border border-border/50 gap-8" 
+                                    className="flex flex-col items-center justify-center p-6 size-36 rounded-2xl bg-[#0A0A0A] border border-border/50 gap-8" 
                                 >
-                                    <div className="size-12 rounded-lg bg-primary/10 flex items-center justify-center">
+                                    <div className="size-12 p-1 rounded-lg bg-primary/10 flex items-center justify-center">
                                         <card.icon className="size-6 text-primary" />
                                     </div>
                                     <Link 
