@@ -28,7 +28,7 @@ const Stats = () => {
                                         />
                                     </div> */}
                                     <div className="text-center">
-                                        <h4 className="text-2xl lg:text-4xl text-transparent bg-gradient-to-b from-neutral-100 to bg-neutral-500 bg-clip-text font-semibold mt-5">
+                                        <h4 className="text-2xl lg:text-4xl text-transparent bg-linear-to-b from-neutral-100 to bg-neutral-500 bg-clip-text font-semibold mt-5">
                                             {stat.value}
                                         </h4>
                                         <p className="text-sm text-muted-foreground mt-1">

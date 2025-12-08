@@ -6,10 +6,10 @@ import { PRODUCT_LINKS, RESOURCES_LINKS } from "@/constants";
 
 const Footer = () => {
     return (
-        <footer className="relative pt-16 pb-8 md:pb-0 w-full overflow-hidden">
+        <footer className="relative pt-8 pb-8 md:pb-0 w-full overflow-hidden">
             <Wrapper>
                 <Container animation="scaleUp" delay={0.3}>
-                    <div className="absolute top-0 w-4/5 mx-auto inset-x-0 h-px bg-gradient-to-r from-[#050505] via-primary/40 to-[#050505]"></div>
+                    <div className="absolute top-0 w-4/5 mx-auto inset-x-0 h-px bg-linear-to-r from-[#050505] via-primary/40 to-[#050505]"></div>
                 </Container>
 
                 {/* <div className="grid gap-8 xl:grid-cols-2 xl:gap-8">
@@ -89,7 +89,7 @@ const Footer = () => {
                 </div> */}
 
                 <Container animation="fadeUp" delay={1}>
-                    <div className="mt-16 border-t-0 border-border/80 pt-8 pb-4 flex flex-col md:flex-row items-center justify-center">
+                    <div className="pb-8 flex flex-col md:flex-row items-center justify-center">
                         <p className="text-sm text-muted-foreground">
                             © {new Date().getFullYear()} Preflyte. All rights reserved.
                         </p>

@@ -7,7 +7,7 @@ export default function MarketingLayout({
     children: React.ReactNode;
 }) {
     return (
-        <main className="w-full grow relative">
+        <main className="w-full flex flex-col justify-between min-h-screen">
             <Navbar />
             {children}
             <Footer />

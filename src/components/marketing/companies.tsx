@@ -32,6 +32,7 @@ const Companies = () => {
                         <div className="flex flex-col md:flex-row gap-8 md:gap-12 w-full justify-center items-center">
                             <Image src="/images/gsoc-logo.png" alt="Google Summer of Code" width={360} height={180} />
                             <Image src="/images/lg-logo.png" alt="Liquid Galaxy" width={120} height={60} />
+                            <Image src="/images/qbeast.png" alt="QBeast" width={120} height={60} />
                         </div>
 
                         {/* <div className="pointer-events-none absolute inset-y-0 left-0 w-1/4 bg-gradient-to-r from-background"></div>
