@@ -30,8 +30,9 @@ const Companies = () => {
                             </div>
                         </Marquee> */}
                         <div className="flex flex-col md:flex-row gap-8 md:gap-12 w-full justify-center items-center">
-                            <Image src="/images/gsoc-logo.png" alt="Google Summer of Code" width={360} height={180} />
-                            <Image src="/images/lg-logo.png" alt="Liquid Galaxy" width={120} height={60} />
+                            <img src="/images/gsoc-logo.png" alt="Google Summer of Code" className="h-12" />
+                            <img src="/images/lg-logo.png" alt="Liquid Galaxy" className="h-12" />
+                            <img src="/images/qbeast-logo.svg" alt="QBeast" className="h-12" />
                         </div>
 
                         {/* <div className="pointer-events-none absolute inset-y-0 left-0 w-1/4 bg-gradient-to-r from-background"></div>
